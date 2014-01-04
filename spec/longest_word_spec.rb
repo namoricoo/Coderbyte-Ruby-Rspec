@@ -18,4 +18,3 @@ describe 'longest word method' do
     longest_word(input).should == output
   end
 end
-
