@@ -43,7 +43,7 @@ def set_next_character(character, alphabet_hash)
 end
 
 def upcase_vowels(character)
-  if /[^aeiou]/ =~ character
+  if /[^aeiou]/i =~ character
     character
   else
     character.upcase
