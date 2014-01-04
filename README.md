@@ -11,4 +11,5 @@ Easy problems
 * 4) Letter Changer: For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
 * 5) Simple Adding: For this challenge you will be adding up all the numbers from 1 to a certain argument.
 * 6)Letter Capitalize: For this challenge you will be capitalizing certain characters in a string.
+* 7)Simple Symbol: For this challenge you will be determining whether or not certain characters are in correct positions.
 
