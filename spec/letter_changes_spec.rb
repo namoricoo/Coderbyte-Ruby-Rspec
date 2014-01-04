@@ -17,9 +17,9 @@ describe 'letter changes method' do
     output = 'Ifmmp*3'
     letter_changes(input).should == output
   end
-  # it "alters strings Input = 'fun times!' Output = 'gvO Ujnft!'" do
-    # input = 'fun times!'
-    # output = 'gvO Ujnft!'
-    # letter_changes(input).should == output
-  # end
+  it "alters strings Input = 'zab' Output = 'Abc'" do
+    input = 'zab'
+    output = 'Abc'
+    letter_changes(input).should == output
+  end
 end
