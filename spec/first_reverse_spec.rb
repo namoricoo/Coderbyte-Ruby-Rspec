@@ -3,13 +3,15 @@
 require 'spec_helper'
 require_relative '../lib/first_reverse.rb'
 
-describe Reverse do
-  it "reverse a string" do
+describe 'reverse method' do
+  it "reverses a string Input = 'coderbyte' Output = 'etybredoc' " do
       string_input = 'coderbyte'
       string_output = 'etybredoc'
       first_reverse(string_input).should == string_output
   end
+  it "reverses a string Input = 'I Love Code' Output = 'edoC evoL I' " do
+      string_input = 'I Love Code'
+      string_output = 'edoC evoL I'
+      first_reverse(string_input).should == string_output
+  end
 end
-
-# Input = "coderbyte"Output = "etybredoc"
-# Input = "I Love Code"Output = "edoC evoL I"

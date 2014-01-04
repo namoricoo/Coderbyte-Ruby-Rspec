@@ -1,10 +1,13 @@
 # Class definition
-class Reverse
-  def first_reverse(str)
 
-    # code goes here
-    return str          
-  end
+def first_reverse(string_input)
+  character_array = string_input.each_char  
+  output = ''
+  character_array.reverse_each do |character|
+    output += character
+  end    
+  output        
 end
+
 
 
