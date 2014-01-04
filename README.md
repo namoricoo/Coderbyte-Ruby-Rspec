@@ -8,3 +8,4 @@ Easy problems
 * 1) First reverse: For this challenge you will be reversing a string.
 * 2) First Factorial: For this challenge you will be determining the factorial for a given number.
 * 3) Longest Word: For this challenge you will be determining the largest word in a string.
+* 4) Letter Changer: For this challenge you will be manipulating characters in a string based off their positions in the alphabet.
