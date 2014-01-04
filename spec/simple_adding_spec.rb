@@ -8,13 +8,13 @@ describe 'simple adding method' do
   it 'check to see if input is a number input = 1 output = true' do
     input = 1
     output = true
-    is_digit?(input).should == output
+    digit?(input).should == output
   end
   it 'check to see if input is a number input = b output = false' do
     input = 'b'
     output = false
-    is_digit?(input).should == output
-  end 
+    digit?(input).should == output
+  end
   it 'adds all of the number before upper limmit Input = 12 Output = 78' do
     input = 12
     output = 78
@@ -24,5 +24,5 @@ describe 'simple adding method' do
     input = 140
     output = 9870
     simple_adding(input).should == output
-  end  
+  end
 end

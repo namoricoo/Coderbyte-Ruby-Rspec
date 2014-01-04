@@ -33,7 +33,7 @@ end
 
 def set_next_character(character, alphabet_hash)
   key = character.to_sym
-  current_char_int = alphabet_hash[key].to_int  
+  current_char_int = alphabet_hash[key].to_int
   # if the 'z' return 'a' as per requirements
   if current_char_int == 26
     'a'
