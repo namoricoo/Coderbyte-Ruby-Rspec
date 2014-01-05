@@ -12,4 +12,9 @@ describe 'ex_oh' do
     output = true
     ex_oh(input).should == output
   end
+  it "same number of x and o Input = 'x' Output = false" do
+    input = 'x'
+    output = false
+    ex_oh(input).should == output
+  end
 end
