@@ -6,13 +6,13 @@ require 'spec_helper'
 require_relative '../lib/vowel_count.rb'
 describe 'vowel_count' do
   it "counts total vowels  Input = 'hello' Output = 2" do
-     input = 'hello'
-     output = 2
-     vowel_count(input).should == output
+    input = 'hello'
+    output = 2
+    vowel_count(input).should == output
   end
   it "counts total vowels  Input = 'coderbyte' Output = 3" do
-     input = 'coderbyte'
-     output = 3
-     vowel_count(input).should == output
+    input = 'coderbyte'
+    output = 3
+    vowel_count(input).should == output
   end
 end
