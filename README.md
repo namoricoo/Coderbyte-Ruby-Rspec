@@ -13,3 +13,4 @@ Easy problems
 * 6) Letter Capitalize: For this challenge you will be capitalizing certain characters in a string.
 * 7) Simple Symbol: For this challenge you will be determining whether or not certain characters are in correct positions.
 * 8) Check nums: For this challenge you will be comparing two numbers and determining which one is greater.
+* 9) Time Convert: For this challenge you will be determining the difference in hours and minutes between two given times.
