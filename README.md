@@ -17,3 +17,4 @@ Easy problems
 * 10) Alphabet Soup: For this challenge you will be sorting characters in a string.
 * 11) AB Check: For this challenge you will determine if two characters are separated a specific way in the string.
 * 12) Vowel Count: For this challenge you will be counting all the vowels in a string.
+* 13) Word Count: For this challenge you will be determining how many words a sentence contains.
