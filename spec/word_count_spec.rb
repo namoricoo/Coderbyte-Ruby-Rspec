@@ -11,4 +11,9 @@ describe 'word_count' do
     output = 2
     word_count(input).should == output
   end
+  it "total words in string Input = 'one 22 three' Output = 3" do
+    input = 'one 22 three'
+    output = 3
+    word_count(input).should == output
+  end
 end
