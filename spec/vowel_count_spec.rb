@@ -10,4 +10,9 @@ describe 'vowel_count' do
      output = 2
      vowel_count(input).should == output
   end
+  it "counts total vowels  Input = 'coderbyte' Output = 3" do
+     input = 'coderbyte'
+     output = 3
+     vowel_count(input).should == output
+  end
 end
