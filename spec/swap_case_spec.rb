@@ -10,5 +10,10 @@ describe 'swap_case' do
     output = 'hELLO-lol'
     swap_case(input).should == output
   end
+  it "Input = 'Hello-LOL' Output = 'hELLO-lol'" do
+    input = 'Hello-LOL'
+    output = 'hELLO-lol'
+    swap_case(input).should == output
+  end
 end
 
