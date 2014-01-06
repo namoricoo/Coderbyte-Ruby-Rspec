@@ -1,0 +1,16 @@
+# Using the Ruby language, have the function NumberSearch(str) take the
+# str parameter, search for all the numbers in the string, add them together,
+# then return that final number. For example: if str is "88Hello 3World!"
+# the output should be 91. You will have to differentiate between single
+# digit numbers and multiple digit numbers like in the example above.
+# So "55Hello" and "5Hello 5" should return two different answers.
+# Each string will contain at least one letter or symbol
+require 'spec_helper'
+require_relative '../lib/number_search.rb'
+describe 'number_search' do
+  it "Input = '75Number9' Output = 84" do
+    input = '75Number9'
+    output = 84
+    number_search(input).should == output
+  end
+end
