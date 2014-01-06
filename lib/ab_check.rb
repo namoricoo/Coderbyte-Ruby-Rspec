@@ -12,7 +12,7 @@ def ab_check(string_input)
 end
 
 def after_thrid_character?(string_input, index, first_char, char_pattern)
-  if (first_char == 'a') || (first_char == 'b')
+  if ((first_char == 'a') || (first_char == 'b') ) && (first_char != char_pattern)
     fourth_letter_from_here = string_input.slice(index + 4, 1)
     fourth_letter_from_here == char_pattern
   end

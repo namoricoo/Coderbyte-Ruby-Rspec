@@ -13,4 +13,9 @@ describe 'number_search' do
     output = 84
     number_search(input).should == output
   end
+  it "Input = '10 2One Number*1*' Output = 13" do
+    input = '10 2One Number*1*'
+    output = 13
+    number_search(input).should == output
+  end
 end
