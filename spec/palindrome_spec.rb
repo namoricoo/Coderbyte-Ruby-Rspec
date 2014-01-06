@@ -12,5 +12,9 @@ describe 'palindrome' do
     output = 'true'
     palindrome(input).should == output
   end
+  it "Input = 'never odd or even' Output = 'true' " do
+    input = 'never odd or even'
+    output = 'true'
+    palindrome(input).should == output
+  end
 end
-
