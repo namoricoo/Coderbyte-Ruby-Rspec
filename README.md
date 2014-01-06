@@ -20,3 +20,4 @@ Easy problems
 * 13) Word Count: For this challenge you will be determining how many words a sentence contains.
 * 14) Ex oh: For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
 * 15) Palindrome: For this challenge you will determine if a string is written the same way forward and backwards.
+* 16) Arith Geo: For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.

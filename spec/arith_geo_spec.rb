@@ -13,9 +13,18 @@ require 'spec_helper'
 require_relative '../lib/arith_geo.rb'
 describe 'arith_geo' do
   it "Input = [5,10,15] Output = 'Arithmetic' " do
-    input = [5,10,15]
+    input = [5, 10, 15]
     output = 'Arithmetic'
     arith_geo(input).should == output
   end
+  it "Input = [2, 6, 18, 54] Output = 'Geometric' " do
+    input = [2, 6, 18, 54]
+    output = 'Geometric'
+    arith_geo(input).should == output
+  end
+  it "Input = [2,4,16,24] Output = -1 " do
+    input = [2,4,16,24]
+    output = -1
+    arith_geo(input).should == output
+  end
 end
- 
