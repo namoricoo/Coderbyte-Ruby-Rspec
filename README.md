@@ -27,4 +27,5 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 ##Medium Difficulty
 * Prime Time: For this challenge you will be determining if an argument is a prime number.
 * Run Length: For this challenge you will determine the Run Length Encoding of a string.
+* Prime Mover: For this challenge you will be returning a certain prime number.
 * Palindrome Two: For this challenge you will be determining if a string is a palindrome.
