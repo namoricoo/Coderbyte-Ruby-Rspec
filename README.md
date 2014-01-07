@@ -1,10 +1,10 @@
-Coderbyte.com problems
+#Coderbyte.com problems
 ==============================================================
 
 We are solving the coderbyte.com problems with Ruby and testing with Rspec
 
 
-*Easy problems*
+##Easy problems
 * First reverse: For this challenge you will be reversing a string.
 * First Factorial: For this challenge you will be determining the factorial for a given number.
 * Longest Word: For this challenge you will be determining the largest word in a string.
@@ -24,5 +24,5 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 * Swap Case: For this challenge you will be swapping the case of each character in the string.
 * Number Addition: For this challenge you will traverse a string searching for all the numbers and then you will add them up.
 
-*Medium Difficulty*
+##Medium Difficulty
 * Prime Time: For this challenge you will be determining if an argument is a prime number.
