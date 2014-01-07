@@ -1,4 +1,4 @@
-def number_search(string_input)
+def number_addition(string_input)
   total = 0
   current_number = ""
   index = 0
@@ -10,5 +10,6 @@ def number_search(string_input)
       current_number = ""
     end
   end
-  total += current_number.to_i  
+  total += current_number.to_i
+  total
 end

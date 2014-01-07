@@ -6,16 +6,16 @@
 # So "55Hello" and "5Hello 5" should return two different answers.
 # Each string will contain at least one letter or symbol
 require 'spec_helper'
-require_relative '../lib/number_search.rb'
-describe 'number_search' do
+require_relative '../lib/number_addition.rb'
+describe 'number_addition' do
   it "Input = '75Number9' Output = 84" do
     input = '75Number9'
     output = 84
-    number_search(input).should == output
+    number_addition(input).should == output
   end
   it "Input = '10 2One Number*1*' Output = 13" do
     input = '10 2One Number*1*'
     output = 13
-    number_search(input).should == output
+    number_addition(input).should == output
   end
 end
