@@ -12,6 +12,6 @@ describe 'run_length' do
   it "Input = 'aabbcde' Output = '2a2b1c1d1e'" do
     input = 'aabbcde'
     output = '2a2b1c1d1e'
-    run_length(input).should == output    
+    run_length(input).should == output
   end
 end
