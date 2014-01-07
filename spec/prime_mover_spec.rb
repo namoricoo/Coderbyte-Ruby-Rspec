@@ -10,4 +10,9 @@ describe 'prime_mover' do
     output = 23
     prime_mover(input).should  == output
   end
+   it "Input = 100 Output = 541" do
+    input = 100
+    output = 541
+    prime_mover(input).should  == output
+  end
 end
