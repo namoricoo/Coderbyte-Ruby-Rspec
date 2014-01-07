@@ -11,7 +11,13 @@ require_relative '../lib/palindrome_two.rb'
 describe 'palindrome_two' do
   it " Input = 'Noel - sees Leon' Output = 'true'" do
     input = 'Noel - sees Leon'
-    output = true
+    output = 'true'
+    palindrome_two(input).should == output
+  end
+  it " Input = 'A war at Tarawa!' Output = 'true' " do
+    input = 'A war at Tarawa!'
+    output = 'true'
     palindrome_two(input).should == output
   end
 end
+
