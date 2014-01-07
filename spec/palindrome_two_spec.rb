@@ -20,4 +20,3 @@ describe 'palindrome_two' do
     palindrome_two(input).should == output
   end
 end
-
