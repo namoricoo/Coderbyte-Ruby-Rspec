@@ -10,4 +10,10 @@
      output = '9-9-946'
      dash_insert(input).should == output
    end
- end 
+   it "insert dash after odd number Input = 56730 Output = '567-30'" do
+     input = 56730
+     output = '567-30'
+     dash_insert(input).should == output
+   end
+ end
+ 
