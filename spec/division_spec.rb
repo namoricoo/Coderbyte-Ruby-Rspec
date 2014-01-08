@@ -13,4 +13,10 @@ describe 'division' do
     output = 1
     division(number1, number2).should == output
   end
+  it 'Greatest Common Factor Input = 36 & num2 = 54Output = 18' do
+    number1 = 36
+    number2 = 54
+    output = 18
+    division(number1, number2).should == output
+  end
 end
