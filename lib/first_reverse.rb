@@ -1,5 +1,4 @@
-# Class definition
-
+# Method for reversing a string
 def first_reverse(string_input)
   character_array = string_input.each_char
   output = ''
