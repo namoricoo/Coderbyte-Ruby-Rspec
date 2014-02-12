@@ -7,9 +7,9 @@ describe 'first factorial method' do
     output_number = 24
     first_factorial(input_number).should == output_number
   end
-  it "returns the factorial input='8O' ouput='40320'" do
-    input_number = 4
-    output_number = 24
+  it "returns the factorial input='8' ouput='40320'" do
+    input_number = 8
+    output_number = 40320
     first_factorial(input_number).should == output_number
   end
 end

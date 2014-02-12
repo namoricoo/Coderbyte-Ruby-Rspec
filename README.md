@@ -1,4 +1,4 @@
-#Coderbyte.com problems
+#Coderbyte.com problems Ruby
 ==============================================================
 
 We are solving the coderbyte.com problems with Ruby and testing with Rspec
@@ -31,3 +31,4 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 * Prime Mover: For this challenge you will be returning a certain prime number.
 * Palindrome Two: For this challenge you will be determining if a string is a palindrome.
 * Division: For this challenge you will determine the Greatest Common Factor between two numbers.
+* String Scramble: For this challenge you will determine if string 1 can be rearranged into string 2.
