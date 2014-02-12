@@ -6,7 +6,7 @@ def swap_case(string_input)
     elsif character =~ /[a-z]/
       output_string += character.upcase
     else
-      output_string += character  
+      output_string += character
     end
   end
   output_string

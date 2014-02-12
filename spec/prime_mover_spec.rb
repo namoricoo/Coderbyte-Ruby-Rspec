@@ -5,12 +5,12 @@
 require 'spec_helper'
 require_relative '../lib/prime_mover.rb'
 describe 'prime_mover' do
-  it "Input = 9 Output = 23" do
+  it 'Input = 9 Output = 23' do
     input = 9
     output = 23
     prime_mover(input).should  == output
   end
-   it "Input = 100 Output = 541" do
+   it 'Input = 100 Output = 541' do
     input = 100
     output = 541
     prime_mover(input).should  == output

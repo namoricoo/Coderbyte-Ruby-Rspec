@@ -8,11 +8,11 @@ end
 def string_to_hash(string_input)
   string_hash = {}
   string_input.each_char do |character|
-    if string_hash.has_key?(character)
-       string_hash[character] += 1 
+    if string_hash.key?(character)
+       string_hash[character] += 1
     else
-       string_hash[character] = 0 
-    end   
+       string_hash[character] = 0
+    end
   end
   string_hash
 end

@@ -16,7 +16,7 @@ def arithmetic_sequence?(input_array)
       past_num = current_number
     elsif index == 1
       common_difference = current_number - past_num
-      past_num = current_number  
+      past_num = current_number
     elsif index <  input_array.length - 1
       next_num = input_array[index + 1]
       return false if not_arithmetic(common_difference, current_number, next_num)

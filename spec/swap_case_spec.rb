@@ -16,4 +16,3 @@ describe 'swap_case' do
     swap_case(input).should == output
   end
 end
-

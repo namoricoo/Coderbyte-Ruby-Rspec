@@ -16,4 +16,4 @@
      dash_insert(input).should == output
    end
  end
- 
+
