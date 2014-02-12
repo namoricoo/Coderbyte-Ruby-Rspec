@@ -15,4 +15,10 @@ describe 'string_scramble' do
     output = "true"
     string_scramble(str1, str2).should == output
   end
+   it 'return the string true if a portion of str1 characters can be rearranged to match str2' do
+    str1 = "h3llko"
+    str2=  "hello"
+    output = "false"
+    string_scramble(str1, str2).should == output
+  end
 end
