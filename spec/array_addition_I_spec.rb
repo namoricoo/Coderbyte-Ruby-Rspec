@@ -9,7 +9,7 @@
   negative numbers. 
 =end
 require 'spec_helper.rb'
-require_relative 'lib/array_addition_I.rb'
+require_relative '../lib/array_addition_I.rb'
 describe 'array_addition_I' do
   
 end
