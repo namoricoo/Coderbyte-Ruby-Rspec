@@ -11,5 +11,11 @@
 require 'spec_helper.rb'
 require_relative '../lib/array_addition_I.rb'
 describe 'array_addition_I' do
+  it 'return string true if any combination of numbers in the array can be added up to equal the largest number' do
+    input = [4, 6, 23, 10, 1, 3]
+    output = 'true'
+    expect(array_addition_I(input)).should == output
+  end
+
   
 end
