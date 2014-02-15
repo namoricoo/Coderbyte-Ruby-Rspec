@@ -8,3 +8,8 @@
   empty, will not contain all the same elements, and may contain
   negative numbers. 
 =end
+require 'spec_helper.rb'
+require_relative 'lib/array_addition_I.rb'
+describe 'array_addition_I' do
+  
+end
