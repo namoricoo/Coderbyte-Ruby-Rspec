@@ -21,6 +21,7 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 * Ex oh: For this challenge you will traverse a string and determine if there is an equal amount of certain characters.
 * Palindrome: For this challenge you will determine if a string is written the same way forward and backwards.
 * Arith Geo: For this challenge you will determine if numbers within an array follow an arithmetic or geometric sequence.
+* Array Addition I: For this challenge you will determine if numbers in an array can add up to a certain number in the array.
 * Dash Insert: For this challenge you will be manipulating a string using dashes (-).
 * Swap Case: For this challenge you will be swapping the case of each character in the string.
 * Number Addition: For this challenge you will traverse a string searching for all the numbers and then you will add them up.
@@ -32,4 +33,3 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 * Palindrome Two: For this challenge you will be determining if a string is a palindrome.
 * Division: For this challenge you will determine the Greatest Common Factor between two numbers.
 * String Scramble: For this challenge you will determine if string 1 can be rearranged into string 2.
-* Array Addition I: For this challenge you will determine if numbers in an array can add up to a certain number in the array.
