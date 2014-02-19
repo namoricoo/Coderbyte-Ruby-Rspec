@@ -16,6 +16,4 @@ describe 'array_addition_I' do
     output = 'true'
     expect(array_addition_I(input)).should == output
   end
-
-  
 end
