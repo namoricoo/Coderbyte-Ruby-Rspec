@@ -15,6 +15,6 @@ describe 'ab_check' do
   it "a and b seperated by 3 spaces Input = 'Laura sobs' Output = 'true'  " do
     input = 'Laura sobs'
     output = true
-    ab_check(input).should == output
+    expect(ab_check(input)).to eq(output)
   end
 end
