@@ -8,11 +8,11 @@ describe 'alphabet_soup' do
   it "Input = 'coderbyte' Output = 'bcdeeorty' " do
     input = 'coderbyte'
     output = 'bcdeeorty'
-    alphabet_soup(input).should == output
+    alphabet_soup(input).should eq output
   end
   it "Input = 'hooplah' Output = 'ahhloop' " do
     input = 'hooplah'
     output = 'ahhloop'
-    alphabet_soup(input).should == output
+    alphabet_soup(input).should eq output
   end
 end
