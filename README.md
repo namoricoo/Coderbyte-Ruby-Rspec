@@ -25,7 +25,7 @@ We are solving the coderbyte.com problems with Ruby and testing with Rspec
 * Dash Insert: For this challenge you will be manipulating a string using dashes (-).
 * Swap Case: For this challenge you will be swapping the case of each character in the string.
 * Number Addition: For this challenge you will traverse a string searching for all the numbers and then you will add them up.
-
+* Third Greatest: For this challenge you will determine the third largest string within an array.
 ##Medium Difficulty
 * Prime Time: For this challenge you will be determining if an argument is a prime number.
 * Run Length: For this challenge you will determine the Run Length Encoding of a string.
