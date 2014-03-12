@@ -9,10 +9,26 @@
  "after", "all"] the output should be after because the first
  three words are all 5 letters long, so return the last one.
  The array will have at least three strings and each string
- will only contain letters.  
+ will only contain letters.
 =end
 require 'spec_helper.rb'
 require_relative '../lib/third_greatest.rb'
 describe 'third_greatest' do
-  
+  it "Input = 'coder','byte','code' Output = 'code'" do
+    input = ['coder', 'byte', 'code']
+    output = 'code'
+    expect(third_greatest(input)).to eq(output)
+  end
+
+  it "Input = 'abc','defg' ,'z' ,'hijk' Output = 'abc'" do
+    input = ['abc', 'defg' , 'z' , 'hijk']
+    output = 'abc'
+    expect(third_greatest(input)).to eq(output)
+  end
+
+  it "Input = 'hello', 'world', 'after', 'all' Output = 'after'" do
+    input = ['hello', 'world', 'after', 'all']
+    output = 'after'
+    expect(third_greatest(input)).to eq(output)
+  end
 end
