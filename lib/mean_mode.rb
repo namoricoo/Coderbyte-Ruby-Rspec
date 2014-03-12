@@ -18,8 +18,9 @@ end
 def mode(input_array)
   most_repeated_number_hash = get_most_repeated_number_hash(input_array)
   result_array = most_repeated_number_hash.sort_by{|key,value| value}  
-  most_repeated_number = result_array.last.first  
-  if most_repeated_number == 0
+  most_repeated_number = result_array.last.first 
+  number_of_time_repeated = result_array.last.last
+  if number_of_time_repeated == 0
     'none'
   else   
     most_repeated_number
